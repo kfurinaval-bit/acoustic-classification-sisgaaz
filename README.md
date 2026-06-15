@@ -29,13 +29,15 @@ Repositório do artigo submetido ao **SIGE 2026 — ITA**.
 
 ---
 
-## 🛠️ Como Usar
+## 🛠️ Como Usar e Citação
 
-### Instalar as dependências:
 ```bash
+# 1. Instalar as dependências:
 pip install -r requirements.txt
-markdown
+
+# 2. Executar o treinamento:
 python pipeline/train.py
+
 @inproceedings{kfuri2026,
   author    = {Kfuri de Oliveira, Leandro and Fernandes, Rigel Procópio},
   title     = {Classificação de Contatos Acústicos Subaquáticos Utilizando Redes Neurais Profundas},
